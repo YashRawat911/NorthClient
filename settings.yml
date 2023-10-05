@@ -1,9 +1,9 @@
-name: NorthClient
+name: LykCloud
 defaulttheme: NorthClientTheme
-logo: https://media.discordapp.net/attachments/984837636457918465/1000014634012647464/giphy.gif
+logo: https://cdn.discordapp.com/avatars/1154803796636094547/aa05ddf15560b8ef53db3f9dbc10cc56.webp
 version: 2.0.0
 website:
-  port: 9000
+  port: 8080
   secret: Example Secret
 
 data:
@@ -15,7 +15,7 @@ gift:
 
 discordserver:
   enabled: true
-  invitelink: https://discord.gg/c2V7NKKWCT
+  invitelink: https://discord.gg/EQvCKjdftf
 
 ads:
   enabled: false
@@ -27,8 +27,8 @@ guildblacklist:
   - ServerID
 
 pterodactyl: ##go to ur panel get a api
-  domain: https://panel.example.de
-  key: ptla_yourexamplepteroapi
+  domain: https://panel.fibo.cloud
+  key: ptla_4e9K1iD5JO3XqXZ8FVM5XyEEUNRbk3EOsbRVPE3a0nF
 
 AFK Party: 
   enabled: false
@@ -47,34 +47,34 @@ changelog:
     sent: sent 20.07.2022
 
 linkvertise: ##go to https://publisher.linkvertise.com/ to get ur userid
-  enabled: true
+  enabled: false
   userid: 00000
   coins: 25
 
 status:
-  enabled: true
+  enabled: false
   script: https://example.com
 
 stripe:
-  enabled: true  
+  enabled: false  
   key: 0000000000 # Replace this with your Stripe API Key
   coins: 200 # Coins per amount in USD
   amount: 1
 
 smtp:
   enabled: false
-  host: Example Host
-  port: 7080
-  username: Example Username
-  password: Example Password
+  host: mail.smtp2go.com
+  port: 8025
+  username: lyk
+  password: lykhost
 
 api:
   server:
-    enabled: true
+    enabled: false
     key: API KEY
   client:
     j4r: 
-      enabled: true
+      enabled: false
       ads:
       - name: Example Server 1
         id: 984837635879104602
@@ -134,9 +134,9 @@ api:
         cost: 0
 
     oauth2:
-      id: "Ur ID"
-      secret: "Your Secret API"
-      link: "Your Domain"
+      id: "1143847916998492191"
+      secret: "83vipXhm4wP0e6xihIJATliaBvAbjI6b"
+      link: "https://northclient-1.freevps911.repl.co"
       callbackpath: "/callback"
       prompt: true
 
@@ -159,12 +159,12 @@ api:
 
     locations:
       '1':
-        name: Node01
+        name: NOT ADD
         package: null
 
     eggs:
       paper:
-        display: Minecraft Java
+        display: NodeJS
         minimum:
           ram: 1024
           disk: 1024
@@ -185,7 +185,7 @@ api:
             databases: 4
             backups: 4
       discord.js generic:
-        display: Discordjsgeneric
+        display: VPS
         minimum:
           ram: 512
           disk: 512
@@ -202,30 +202,30 @@ api:
             databases: 4
             backups: 4
     coins:
-      enabled: true
+      enabled: false
       store:
-        enabled: true
+        enabled: false
         ram:
-          cost: 100
-          per: 10
+          cost: 1000
+          per: 100
         disk:
-          cost: 100
-          per: 10
+          cost: 1000
+          per: 100
         cpu:
-          cost: 100
-          per: 10
+          cost: 1000
+          per: 100
         servers:
-          cost: 100
-          per: 10
+          cost: 1000
+          per: 100
         databases:
-          cost: 100
-          per: 10
+          cost: 1000
+          per: 100
         ports:
-          cost: 100
-          per: 10
+          cost: 1000
+          per: 100
         backups:
-          cost: 100
-          per: 10
+          cost: 1000
+          per: 100
 widget: # If u wana use it u need to invite the Discord Bot (https://add.widgetbot.io/)
   enabled: false
   server_id: "GUILD_ID"
