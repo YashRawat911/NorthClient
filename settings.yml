@@ -27,7 +27,7 @@ guildblacklist:
   - ServerID
 
 pterodactyl: ##go to ur panel get a api
-  domain: https://panel.fibo.cloud
+  domain: https://panel.lykhost.link
   key: ptla_4e9K1iD5JO3XqXZ8FVM5XyEEUNRbk3EOsbRVPE3a0nF
 
 AFK Party: 
