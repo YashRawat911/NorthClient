@@ -136,7 +136,7 @@ api:
     oauth2:
       id: "1143847916998492191"
       secret: "83vipXhm4wP0e6xihIJATliaBvAbjI6b"
-      link: "https://northclient-1.freevps911.repl.co"
+      link: "https://dash.lykcloud.zc.al/"
       callbackpath: "/callback"
       prompt: true
 
